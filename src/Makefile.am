@@ -1,5 +1,6 @@
 dist_erl_DATA =	amf.erl	amf0.erl amf3.erl amf_AbstractMessage.erl \
-	amf_AsyncMessage.erl amf_CommandMessage.erl amf_AcknowledgeMessage.erl
+	amf_AsyncMessage.erl amf_CommandMessage.erl amf_AcknowledgeMessage.erl \
+	amf0_tests.erl amf3_tests.erl
 erldir = $(ERLANG_INSTALL_LIB_DIR_amf)/src
 dist_hrl_DATA = amf.hrl
 hrldir = $(ERLANG_INSTALL_LIB_DIR_amf)/include
