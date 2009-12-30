@@ -1,3 +1,9 @@
+2009-12-30  Ruslan Babayev <ruslan@babayev.com>
+	* src/amf0_tests.erl: Add AMF0 unit tests.
+	* src/amf3_tests.erl: Add AMF3 unit tests.
+	* src/amf0.erl: Fix AMF0 AVM+ decoding. Reported by Max Lapshin.
+	* src/amf3.erl: Fix AMF3 Array decoding. Reported by David Dossot.
+
 2009-08-15  Ruslan Babayev  <ruslan@babayev.com>
 
 	* src/overview.edoc.in: Doc fixes.
